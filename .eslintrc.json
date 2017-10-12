@@ -1,0 +1,39 @@
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "mongo": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "eqeqeq": "warn",
+        "no-trailing-spaces": "warn",
+        "no-lone-blocks": "warn",
+        "keyword-spacing": "warn",
+        "space-before-blocks":"warn",
+        "space-before-function-paren":"warn",
+        "object-curly-spacing": [
+          "warn",
+          "always",
+          { "arraysInObjects": true }
+        ]
+    }
+}
