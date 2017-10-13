@@ -1,4 +1,4 @@
 express mongo vintage
 =====================
 
-Demo using express, mongoose, body-parser.
+Demo using express, mongoose, body-parser, cors.
